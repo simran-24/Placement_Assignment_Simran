@@ -1,0 +1,76 @@
+body {
+  background-color: #cf6a87;
+}
+
+.App {
+  margin: 100px;
+  text-align: center;
+  justify-content: center;
+
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+.title {
+  color: #fff;
+}
+
+.won {
+  background-color: #fff;
+  color: #1C8D73;
+}
+
+.turn {
+  color: #222f3e;
+}
+
+.grid {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  border-radius: 0px;
+}
+
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:active {
+  background-color: #CAD5E2;
+}
+
+.icon {
+  font-size: 20px;
+  color: #cf6a87;
+}
+
+ /* Button CSS */
+
+.btn {
+  margin-top: 20px;
+  background-color: #fff;
+  color: #cf6a87;
+  border: 0px;
+}
+
+.btn:hover {
+  background-color: #cf6a87;
+  color: #fff;
+  border: 1px solid white;
+}
+
+.btn:active {
+  background-color: #cf6a87;
+  color: #fff;
+  border: 1px solid white;
+}
